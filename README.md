@@ -6,3 +6,4 @@
 板子没画USB-TTL的晶振，记得用**CH340C**。~~CH340C跟CH340G的丝印很像，别看错，~~
 ![image](https://github.com/Him392/PlayGround/assets/50799666/7f6221fd-11cf-46ff-b5bb-bdcb33a49ed9)
 ~~铃兰可爱捏~~
+基于https://oshwhub.com/duopub/SuzuranLightV2魔改，沿用原项目**CC BY-NC-SA 4.0**协议。
