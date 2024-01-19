@@ -20,7 +20,7 @@ void setup() {
   pinMode(3, OUTPUT); 
 
 }
-uint16_t out,dis=0;
+uint16_t out,dis,temp=0;
 
 void loop() {
   VL53L0X_RangingMeasurementData_t measure;
@@ -28,7 +28,8 @@ void loop() {
   if (measure.RangeStatus != 4) {  // phase failures have incorrect data 
     dis=measure.RangeMilliMeter;
   }
-  out=map(dis,350,50,0,255);
+  temp=(dis+temp)/2;
+  out=map(temp,350,50,0,255);
   if(dis>350)out=0;
   analogWrite(3,out);
 }
