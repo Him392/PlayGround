@@ -8,3 +8,6 @@
 ~~铃兰可爱捏~~
 
 基于https://oshwhub.com/duopub/SuzuranLightV2 魔改，沿用原项目**CC BY-NC-SA 4.0**协议。
+##BIN_show_Arduino
+
+课设不想解释
