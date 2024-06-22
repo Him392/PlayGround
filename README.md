@@ -9,7 +9,7 @@
 基于https://oshwhub.com/duopub/SuzuranLightV2 魔改，沿用原项目**CC BY-NC-SA 4.0**协议。
 
 
-##Foldartals
+## Foldartals
 
 
 实体密文板（部分）~~V我50给你迁徙~~
